@@ -1,5 +1,9 @@
 # codigos-bash
 
+<p align="center">
+  <img src="activos/bash.jpg" width="100%">
+</p>
+
 # 🍎 TERMINAL macOS (Bash / zsh) - CHEAT SHEET
 
 ## 📁 Navegación
