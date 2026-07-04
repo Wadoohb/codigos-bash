@@ -21,6 +21,8 @@
 | `clear` | Limpia la pantalla. |
 | `history` | Muestra el historial de comandos. |
 
+
+
 ---
 
 ## 📂 Archivos y carpetas
@@ -38,6 +40,9 @@
 | `rm -r carpeta` | Elimina una carpeta. |
 | `rm -rf carpeta` | Fuerza la eliminación. ⚠️ |
 | `rmdir carpeta` | Elimina una carpeta vacía. |
+| `nano notas.txt` | escribir en archivo. |
+| `echo "Hola mundo" > notas.txt` | escribir en archivo. |
+| `echo "Segunda línea" >> notas.txt` | escribir en archivo. |
 
 ---
 
@@ -89,6 +94,8 @@
 | `open -a "Visual Studio Code"` | Abre VS Code. |
 | `osascript -e 'quit app "Safari"'` | Cierra una aplicación correctamente. |
 | `killall Safari` | Fuerza el cierre de una aplicación. |
+| `ps -ax` | Fuerza el cierre de una aplicación. |
+| `ps -ax -o comm` | listado de app abiertas. |
 
 ---
 
