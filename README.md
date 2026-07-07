@@ -83,7 +83,29 @@
 | `open .` | Abre la carpeta actual en Finder. |
 | `open ..` | Abre la carpeta anterior en Finder. |
 | `open https://google.com` | Abre un sitio web en el navegador. |
-
+| `open documento.pdf` | Abre un documento PDF. |
+| `open archivo.zip` | Abre un archivo ZIP. |
+| `open .` | Abre la carpeta actual en Finder. |
+| `open ..` | Abre la carpeta anterior. |
+| `open ~/Downloads` | Abre la carpeta Descargas. |
+| `open ~/Desktop` | Abre el Escritorio. |
+| `open -a Safari index.html` | Abre un HTML con Safari. |
+| `open -a "Google Chrome" index.html` | Abre un HTML con Google Chrome. |
+| `open -a "Visual Studio Code" app.js` | Abre un archivo con Visual Studio Code. |
+| `open -a TextEdit notas.txt` | Abre un archivo TXT con TextEdit. |
+| `open -a Preview imagen.png` | Abre una imagen con Vista Previa. |
+| `open -a Music audio.mp3` | Abre un audio con la app Música. |
+| `open -a VLC video.mp4` | Abre un video con VLC. |
+| `open -a VLC audio.mp3` | Reproduce un audio con VLC. |
+| `open -a "QuickTime Player" video.mov` | Abre un video con QuickTime Player. |
+| `afplay audio.mp3` | Reproduce un audio directamente desde la Terminal. |
+| `afplay sonido.wav` | Reproduce un archivo WAV desde la Terminal. |
+| `qlmanage -p imagen.png` | Vista rápida (Quick Look) de una imagen. |
+| `qlmanage -p documento.pdf` | Vista rápida de un PDF. |
+| `qlmanage -p video.mp4` | Vista rápida de un video. |
+| `say "Hola Mundo"` | Convierte texto en voz. |
+| `say -f archivo.txt` | Lee un archivo de texto en voz alta. |
+| `osascript -e 'beep'` | Reproduce el sonido de alerta del sistema. |
 > **💡 Recomendación**
 >
 > - Si el nombre del archivo **no tiene espacios**, no uses comillas.
