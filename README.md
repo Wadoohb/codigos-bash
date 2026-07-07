@@ -43,32 +43,78 @@
 | `nano notas.txt` | escribir en archivo. |
 | `echo "Hola mundo" > notas.txt` | escribir en archivo. |
 | `echo "Segunda línea" >> notas.txt` | escribir en archivo. |
-
----
-## 📄 Ver archivos
-
-| Comando | ¿Para qué sirve? |
-|---------|-------------------|
-| `cat archivo.txt` | Muestra el contenido completo del archivo. |
-| `less archivo.txt` | Lee un archivo por páginas. |
-| `more archivo.txt` | Lee un archivo página por página. |
-| `head archivo.txt` | Muestra las primeras 10 líneas. |
-| `head -20 archivo.txt` | Muestra las primeras 20 líneas. |
-| `tail archivo.txt` | Muestra las últimas 10 líneas. |
-| `tail -20 archivo.txt` | Muestra las últimas 20 líneas. |
-| `tail -f archivo.log` | Sigue un archivo en tiempo real. |
-| `nl archivo.txt` | Muestra el archivo con números de línea. |
-| `wc archivo.txt` | Cuenta líneas, palabras y caracteres. |
-| `wc -l archivo.txt` | Cuenta únicamente las líneas. |
-| `file archivo` | Muestra el tipo de archivo. |
-| `grep "texto" archivo.txt` | Busca una palabra o frase dentro del archivo. |
-| `grep -i "texto" archivo.txt` | Busca ignorando mayúsculas y minúsculas. |
-| `find . -name "*.txt"` | Busca archivos por nombre. |
-| `open archivo.txt` | Abre el archivo con la aplicación predeterminada (macOS). |
-| `open imagen.png` | Abre una imagen. |
-| `open documento.pdf` | Abre un documento PDF. |
-| `open video.mp4` | Abre un video. |
+| `node app.js` | Ejecuta un archivo JavaScript con Node.js. |
+| `open index.html` | Abre un archivo HTML en el navegador. |
+| `open style.css` | Abre un archivo CSS con la aplicación predeterminada. |
+| `open script.js` | Abre un archivo JavaScript con la aplicación predeterminada. |
+| `python3 programa.py` | Ejecuta un programa Python. |
+| `bash script.sh` | Ejecuta un script Bash. |
+| `./script.sh` | Ejecuta un script con permisos de ejecución. |
+| `javac Programa.java` | Compila un programa Java. |
+| `java Programa` | Ejecuta un programa Java compilado. |
+| `gcc programa.c -o programa` | Compila un programa en C. |
+| `g++ programa.cpp -o programa` | Compila un programa en C++. |
+| `./programa` | Ejecuta un programa compilado. |
+| `php index.php` | Ejecuta un programa PHP. |
+| `ruby app.rb` | Ejecuta un programa Ruby. |
+| `perl script.pl` | Ejecuta un programa Perl. |
+| `go run main.go` | Ejecuta un programa Go. |
+| `swift archivo.swift` | Ejecuta un programa Swift. |
+| `open imagen.png` | Abre una imagen PNG. |
+| `open imagen.jpg` | Abre una imagen JPG/JPEG. |
+| `open imagen.webp` | Abre una imagen WEBP. |
+| `open imagen.gif` | Abre una imagen GIF. |
+| `open imagen.svg` | Abre una imagen SVG. |
+| `open video.mp4` | Abre un video MP4. |
+| `open video.mov` | Abre un video MOV. |
+| `open audio.mp3` | Abre un archivo MP3. |
+| `open audio.wav` | Abre un archivo WAV. |
+| `open documento.pdf` | Abre un archivo PDF. |
+| `open documento.docx` | Abre un documento Word. |
+| `open hoja.xlsx` | Abre un archivo Excel. |
+| `open presentacion.pptx` | Abre una presentación PowerPoint. |
+| `open archivo.zip` | Abre un archivo ZIP. |
+| `unzip archivo.zip` | Descomprime un archivo ZIP. |
+| `tar -xzf archivo.tar.gz` | Descomprime un archivo TAR.GZ. |
+| `curl https://ejemplo.com` | Muestra el contenido de una página web o API. |
+| `curl -O https://ejemplo.com/archivo.zip` | Descarga un archivo conservando su nombre. |
+| `curl -o archivo.zip https://ejemplo.com/archivo.zip` | Descarga un archivo con un nombre personalizado. |
+| `wget https://ejemplo.com/archivo.zip` | Descarga un archivo (si `wget` está instalado). |
 | `open .` | Abre la carpeta actual en Finder. |
+| `open ..` | Abre la carpeta anterior en Finder. |
+| `open https://google.com` | Abre un sitio web en el navegador. |
+
+> **💡 Recomendación**
+>
+> - Si el nombre del archivo **no tiene espacios**, no uses comillas.
+>   ```bash
+>   node app.js
+>   open index.html
+>   cat README.md
+>   ```
+>
+> - Si el nombre del archivo **tiene espacios o caracteres especiales**, usa comillas.
+>   ```bash
+>   open "Mi archivo.pdf"
+>   node "Mi programa.js"
+>   cat "Notas importantes.txt"
+>   ```
+>
+> - También puedes escapar los espacios con `\`.
+>   ```bash
+>   open Mi\ archivo.pdf
+>   ```
+>
+> **Buena práctica:** usa nombres de archivos sin espacios, por ejemplo:
+>
+> ```
+> app.js
+> index.html
+> style.css
+> script.js
+> mi-proyecto.pdf
+> imagen-01.png
+> ```
 
 ---
 
