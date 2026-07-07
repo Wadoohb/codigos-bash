@@ -226,10 +226,118 @@
 | `docker run imagen` | Ejecuta un contenedor Docker. |
 
 
+---
+## 📜 Bash Scripting
+
+| Comando / Sintaxis | ¿Para qué sirve? |
+|--------------------|------------------|
+| `#!/bin/bash` | Indica que el script se ejecutará con Bash. |
+| `bash script.sh` | Ejecuta un script Bash. |
+| `chmod +x script.sh` | Da permisos de ejecución al script. |
+| `./script.sh` | Ejecuta el script desde la carpeta actual. |
+| `echo "Hola"` | Muestra un mensaje en pantalla. |
+| `printf "Hola\n"` | Imprime texto con formato. |
+| `clear` | Limpia la terminal. |
+| `read variable` | Lee datos introducidos por el usuario. |
+| `read -p "Nombre: " nombre` | Solicita datos mostrando un mensaje. |
+| `read -s password` | Lee una contraseña sin mostrarla. |
+| `exit` | Finaliza el script. |
+| `exit 0` | Finaliza correctamente. |
+| `exit 1` | Finaliza indicando un error. |
+| `sleep 5` | Pausa el script durante 5 segundos. |
+
+## 📦 Variables
+
+| Sintaxis | ¿Para qué sirve? |
+|----------|------------------|
+| `nombre="Juan"` | Declara una variable. |
+| `echo $nombre` | Muestra el valor de una variable. |
+| `readonly PI=3.14` | Crea una constante. |
+| `unset nombre` | Elimina una variable. |
+
+## 🔢 Operadores
+
+| Sintaxis | ¿Para qué sirve? |
+|----------|------------------|
+| `+ - * / %` | Operaciones aritméticas. |
+| `$((a+b))` | Realiza operaciones matemáticas. |
+| `==` | Igual. |
+| `!=` | Diferente. |
+| `-eq` | Igual (números). |
+| `-ne` | Distinto. |
+| `-gt` | Mayor que. |
+| `-lt` | Menor que. |
+| `-ge` | Mayor o igual. |
+| `-le` | Menor o igual. |
+| `&&` | AND lógico. |
+| `||` | OR lógico. |
+| `!` | NOT lógico. |
+
+## 🔀 Condicionales
+
+| Sintaxis | ¿Para qué sirve? |
+|----------|------------------|
+| `if ... fi` | Ejecuta código si se cumple una condición. |
+| `if ... else ... fi` | Ejecuta una acción u otra. |
+| `if ... elif ... else ... fi` | Evalúa varias condiciones. |
+| `case ... esac` | Selecciona entre varias opciones. |
+
+## 🔁 Bucles
+
+| Sintaxis | ¿Para qué sirve? |
+|----------|------------------|
+| `for` | Repite un bloque un número de veces. |
+| `while` | Repite mientras la condición sea verdadera. |
+| `until` | Repite hasta que la condición sea verdadera. |
+| `break` | Sale del bucle. |
+| `continue` | Salta a la siguiente iteración. |
+
+## 🔧 Funciones
+
+| Sintaxis | ¿Para qué sirve? |
+|----------|------------------|
+| `function nombre(){}` | Declara una función. |
+| `nombre(){}` | Forma corta de declarar una función. |
+| `return` | Devuelve un valor desde la función. |
+
+## 📥 Parámetros
+
+| Variable | ¿Para qué sirve? |
+|----------|------------------|
+| `$0` | Nombre del script. |
+| `$1` | Primer argumento. |
+| `$2` | Segundo argumento. |
+| `$3` | Tercer argumento. |
+| `$#` | Número de argumentos. |
+| `$@` | Todos los argumentos por separado. |
+| `$*` | Todos los argumentos como una cadena. |
+| `$?` | Código de salida del último comando. |
+| `$$` | PID del script actual. |
+| `$!` | PID del último proceso en segundo plano. |
+
+## 📂 Archivos scripting
+
+| Comando | ¿Para qué sirve? |
+|---------|-------------------|
+| `-f archivo` | Comprueba si existe un archivo. |
+| `-d carpeta` | Comprueba si existe un directorio. |
+| `-e archivo` | Comprueba si existe un archivo o carpeta. |
+| `-r archivo` | Comprueba permiso de lectura. |
+| `-w archivo` | Comprueba permiso de escritura. |
+| `-x archivo` | Comprueba permiso de ejecución. |
+| `-s archivo` | Comprueba si el archivo no está vacío. |
+
+## ⚙️ Procesos scripting
+
+| Comando | ¿Para qué sirve? |
+|---------|-------------------|
+| `&` | Ejecuta un proceso en segundo plano. |
+| `wait` | Espera a que termine un proceso. |
+| `jobs` | Muestra trabajos en segundo plano. |
+| `kill PID` | Finaliza un proceso. |
 
 
 ---
-
 ## 🔍 Buscar
 
 | Comando | ¿Para qué sirve? |
