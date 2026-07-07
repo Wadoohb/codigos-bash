@@ -45,16 +45,30 @@
 | `echo "Segunda línea" >> notas.txt` | escribir en archivo. |
 
 ---
-
 ## 📄 Ver archivos
 
 | Comando | ¿Para qué sirve? |
 |---------|-------------------|
-| `cat archivo.txt` | Muestra el contenido. |
+| `cat archivo.txt` | Muestra el contenido completo del archivo. |
 | `less archivo.txt` | Lee un archivo por páginas. |
-| `head archivo.txt` | Primeras líneas. |
-| `tail archivo.txt` | Últimas líneas. |
+| `more archivo.txt` | Lee un archivo página por página. |
+| `head archivo.txt` | Muestra las primeras 10 líneas. |
+| `head -20 archivo.txt` | Muestra las primeras 20 líneas. |
+| `tail archivo.txt` | Muestra las últimas 10 líneas. |
+| `tail -20 archivo.txt` | Muestra las últimas 20 líneas. |
 | `tail -f archivo.log` | Sigue un archivo en tiempo real. |
+| `nl archivo.txt` | Muestra el archivo con números de línea. |
+| `wc archivo.txt` | Cuenta líneas, palabras y caracteres. |
+| `wc -l archivo.txt` | Cuenta únicamente las líneas. |
+| `file archivo` | Muestra el tipo de archivo. |
+| `grep "texto" archivo.txt` | Busca una palabra o frase dentro del archivo. |
+| `grep -i "texto" archivo.txt` | Busca ignorando mayúsculas y minúsculas. |
+| `find . -name "*.txt"` | Busca archivos por nombre. |
+| `open archivo.txt` | Abre el archivo con la aplicación predeterminada (macOS). |
+| `open imagen.png` | Abre una imagen. |
+| `open documento.pdf` | Abre un documento PDF. |
+| `open video.mp4` | Abre un video. |
+| `open .` | Abre la carpeta actual en Finder. |
 
 ---
 
